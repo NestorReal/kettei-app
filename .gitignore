@@ -1,0 +1,11 @@
+# npm dependencies
+/node_modules/
+
+# logs
+*.log
+
+# local variables
+.env.local
+
+# build
+build
