@@ -1,3 +1,6 @@
 import { combineReducers } from 'redux';
+import calculations from './calculations';
 
-export default combineReducers({});
+export default combineReducers({
+    calculations,
+});
