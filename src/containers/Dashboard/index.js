@@ -1,7 +1,7 @@
 import React, { useEffect }  from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {calculateData} from '../../actions'
-
+import TransitionCards from '../../components/TransitionCards';
 const Dashboard = () => {
   const dispatch = useDispatch();
   const calculations = useSelector((state) => state.calculations);
@@ -11,7 +11,7 @@ const Dashboard = () => {
   }, [dispatch]);
   return (
     <div>
-      <h1>app</h1>
+      <TransitionCards data={[]}/>      
     </div>
 );
 };
